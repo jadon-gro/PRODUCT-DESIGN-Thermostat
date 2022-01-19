@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/71471706/150188091-5cfa9878-7da0-4dd7-9eea-58ab913f1a07.jpg" width="500" height="380"> <img src="https://user-images.githubusercontent.com/71471706/150212426-a4ff0d68-1820-4cf5-add8-afd020e6f011.jpg" width="380" height="380">
 
 ## Introduction
-This is a personal project as a self study for product design (CAD, IoT, Arduino ect.).
+This is a personal project as a self study for product design (CAD, IoT, Arduino etc.).
 ### Problem
 The thermostat in the Georgia Tech apartment I live in is ancient and horrible. It is just a knob labelled "warmer" and "cooler." I wanted to make a device that probes many locations in the apartment and can automatically articulate the knob based on the average temperature.
 
