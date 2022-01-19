@@ -92,6 +92,7 @@ This took me a little over a week of working on and off so there is plenty still
 3. Making backplate pins that don't interfere with the buttons
 4. Making the system adjustable over bluetooth or a web-app (difficult over student wifi)
 5. Enabling timeline on Fusion 360 for easier revisions. (I just forgot to)
+6. Cable manage the servo (make it look prettier in general)
 
 ## Known issues
 - My system randomly reboots sometimes. I think this may have to do with a poor soldering job on my part and pins shorting. I'm working on figuring that out.
