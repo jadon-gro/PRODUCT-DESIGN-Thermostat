@@ -34,9 +34,9 @@ Other options from my local microcenter had a many-degree range of error which w
 ## Design
 The 3D model underwent a LARGE number of prototypes and test-prints for fit and ease of use. I settled on a top friction mounted unibody that reaches around to the front where the servo is screwed in place.
 
-The model attaches to the thermostat knob using an independent friction fitted cover that has a slot for the microservo attachment.
+The model attaches to the thermostat knob using an independent friction fitted cap that has a slot for the microservo to grab.
 
-Buttons were a difficult part to mount as they are more meant for breadboards but after a few different mounting attempts, I settled on having them on the top with holes for their pins coming out the bottom.
+Buttons were a difficult part to mount as they are more meant for breadboards. The best solution I found was mounting them on the top leaving holes for the pins to be accessable from the inside.
 
 The model is viewable in the src folder.
 
