@@ -56,8 +56,7 @@ Print with opening facing down using supports. Infill is up to you. This allows 
 ### Soldering
 Assembly from here on is more intuitive and you can probably figure out what works best for your tools and abilities. I will however provide some tips for a few key parts.
 
-PinOuts for the code I wrote:
-Hub:
+PinOut for ESP32 (hub)
 | Connection | ESP-32s GPIO Pin |
 | ---------- | ---------------- |
 | Servo PWM | Pin 13 |
