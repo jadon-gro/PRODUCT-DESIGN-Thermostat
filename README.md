@@ -6,7 +6,7 @@
 ## Introduction
 This is a personal project as a self study for product design (CAD, IoT, Arduino ect.).
 ### Problem
-The thermostat in the Georgia Tech apartment I live in is ancient and horrible. It is just a knob labelled "hotter" and "colder." I wanted to make a device that probes many locations in the apartment and can automatically articulate the knob based on the average temperature.
+The thermostat in the Georgia Tech apartment I live in is ancient and horrible. It is just a knob labelled "warmer" and "cooler." I wanted to make a device that probes many locations in the apartment and can automatically articulate the knob based on the average temperature.
 
 ### Design Goals
 I wanted to use a hub that displays:
