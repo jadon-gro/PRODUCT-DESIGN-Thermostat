@@ -32,7 +32,7 @@ The SHT31-D was chosen because it's got an incredible .3 degree celsius error ra
 Other options from my local microcenter had a many-degree range of error which was unacceptable for my use.
 
 ## Design
-The 3D model underwent a LARGE number of prototypes and test-prints for fit and ease of use. I settled on a top friction mounted unibody that reaches around to the front where the servo is skrewed in place.
+The 3D model underwent a LARGE number of prototypes and test-prints for fit and ease of use. I settled on a top friction mounted unibody that reaches around to the front where the servo is screwed in place.
 
 The model attaches to the thermostat knob using an independent friction fitted cover that has a slot for the microservo attachment.
 
@@ -51,9 +51,10 @@ Backplate:
 Print the back facing down, with NO supports, and 100% infill. You don't want the clips snapping off and it's a small part so the time save from less infill is minimal.
 
 Knob:
-Print with opening facing down using supports and infill is up to you. This allows for the best finish on the visible portions of the part and a rougher and grippier texture where the part touches the knob.
+Print with opening facing down using supports. Infill is up to you. This allows for the best finish on the visible portions of the part and a rougher and grippier texture where the part touches the knob.
 
 ### Soldering
+Assembly from here on is more intuitive and you can probably figure out what works best for your tools and abilities. I will however provide some tips for a few key parts.
 
 PinOuts for the code I wrote:
 Hub:
@@ -68,11 +69,34 @@ Hub:
 | OLED DC | 19 |
 | OLED CS | 5 |
 | OLED Reset | 17 |
-Assembly from here on is more intuitive and you can probably figure out what works best for your tools and abilities. I will however provide some tips for a few key parts.
+
 Buttons:
-First break off one of the pins for two of the buttons. The buttons on either end have an unused pin that conflicts with the mounting holes. Glue the bottom of the buttons to the slots on the main body and have the pins come through to the inside. Now you can solder all the pins accordingly (one side high, the other side to corrosponding GPIO pin)
+First break off one of the pins for two of the buttons. The buttons on either end have an unused pin that conflicts with the mounting holes. Glue the bottom of the buttons to the slots on the main body and have the pins come through to the inside. Now you can solder all the pins (one side high, the other side to corresponding GPIO pin).
+
+<img src="https://user-images.githubusercontent.com/71471706/150201114-a79a0e03-a5f7-4003-99d1-f300d8b0f652.jpg" width="320" height="300">
+
+Now you can solder appropriate length wire from each component to the microcontroller. I glued the rest of the parts in place with hot glue. Make sure to align the port with the hole and route the servo wires through the smaller hole.
 
 
+Probe:
+Just connect the SHT31 onto the I2C bus of your microcontroller.
+
+I may make an encolsure for this in the future but for now I just have mine on a breadboard on my desk.
+
+<img src="https://user-images.githubusercontent.com/71471706/150201590-370a45d6-4455-48c1-bd8a-0c9a6cefd5a7.jpg" width="320" height="300">
+
+
+## Things that still need doing/fixing
+1. Proper graphical support for more than one probe
+2. Making an enclosure for the probe
+3. Making backplate pins that don't interfere with the buttons
+4. Making the system adjustable over bluetooth or a web-app (difficult over student wifi)
+
+## Known issues
+- My system randomly reboots sometimes. I think this may have to do with a poor soldering job on my part and pins shorting. I'm working on figuring that out.
+
+
+If you have any questions about code/design decisions, please feel free to reach out to me via email: jadon.gro@gatech.edu
 
 
 
