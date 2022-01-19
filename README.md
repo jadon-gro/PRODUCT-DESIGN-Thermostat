@@ -11,7 +11,7 @@ The thermostat in the Georgia Tech apartment I live in is ancient and horrible. 
 ### Design Goals
 I wanted to use a hub that displays:
 - The temperature/humidity of the apartment (gateway that can recieve data from many nodes)
-- The target temperature
+- The target temperature (adjustable with buttons)
 - The current mode (cooling, warming, or idle)
 
 I also wanted satallite nodes capable of sending temperature/humidity data.
