@@ -45,7 +45,7 @@ The model is viewable in the src folder.
 <img alt="Cura Slicer Screenshot - Body" src="https://user-images.githubusercontent.com/71471706/150189884-57fc8708-c8f2-4465-9d97-66a99b20b3fb.png" width="300" height="300"> <img alt="Cura Slicer Screenshot - Back" src="https://user-images.githubusercontent.com/71471706/150190739-ca94a50f-7067-49b9-9a26-6def3da9446d.png" width="300" height="300"> <img alt="Cura Slicer Screenshot - Back" src="https://user-images.githubusercontent.com/71471706/150191369-e5c106c3-2f6e-4a4a-891b-88087d23ae38.png" width="300" height="300">
 
 Body:
-I like to print the whole model in one run using supports and 20% infill (for speed). The way to get the best finish on viewable parts, best bed adhesion, and easy support removal is printing it from the back to the front.
+I like to print the whole model in one run using supports and 20% infill (for speed). I printed from back to front which allowed for the best finish on viewable parts, best bed adhesion, and (relatively) easy support removal. Remove the supports from the inside of the body FIRST to reduce risks of breaking the servo arm in the process.
 
 Backplate:
 Print the back facing down, with NO supports, and 100% infill. You don't want the clips snapping off and it's a small part so the time save from less infill is minimal.
