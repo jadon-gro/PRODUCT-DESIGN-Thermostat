@@ -87,6 +87,7 @@ I may make an encolsure for this in the future but for now I just have mine on a
 
 
 ## Things that still need doing/fixing
+This took me a little over a week of working on and off so there is plenty still to be done.
 1. Proper graphical support for more than one probe
 2. Making an enclosure for the probe
 3. Making backplate pins that don't interfere with the buttons
