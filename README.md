@@ -1,6 +1,6 @@
 # PRODUCT-DESIGN-Thermostat
 
-<img src="https://user-images.githubusercontent.com/71471706/150188091-5cfa9878-7da0-4dd7-9eea-58ab913f1a07.jpg" width="400" height="300"> <img src="https://user-images.githubusercontent.com/71471706/150212426-a4ff0d68-1820-4cf5-add8-afd020e6f011.jpg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/71471706/150188091-5cfa9878-7da0-4dd7-9eea-58ab913f1a07.jpg" width="500" height="380"> <img src="https://user-images.githubusercontent.com/71471706/150212426-a4ff0d68-1820-4cf5-add8-afd020e6f011.jpg" width="380" height="380">
 
 ## Introduction
 This is a personal project as a self study for product design (CAD, IoT, Arduino ect.).
@@ -84,7 +84,7 @@ I may make an encolsure for this in the future but for now I just have mine on a
 <img src="https://user-images.githubusercontent.com/71471706/150201590-370a45d6-4455-48c1-bd8a-0c9a6cefd5a7.jpg" width="320" height="300">
 
 
-## Things that still need doing/fixing
+## Things That Still Need Doing/Fixing
 This took me a little over a week of working on and off so there is plenty still to be done.
 1. Proper graphical support for more than one probe
 2. Making an enclosure for the probe
@@ -93,13 +93,24 @@ This took me a little over a week of working on and off so there is plenty still
 5. Enabling timeline on Fusion 360 for easier revisions. (I just forgot to)
 6. Cable manage the servo (make it look prettier in general)
 
-## Known issues
+## Known Issues
 - My system randomly reboots sometimes. I think this may have to do with a poor soldering job on my part and pins shorting. I'm working on figuring that out.
 
 
 If you have any questions about code/design decisions, please feel free to reach out to me via email: jadon.gro@gatech.edu
 
 
+## Prototype Photos
+I did a poor job of keeping track of prototypes but here are the ones I still had by the "end" of the project.
+
+Servo Mount:
+
+<img src="https://user-images.githubusercontent.com/71471706/150214543-15a47b68-cd8e-4e02-bfe6-c7b02061e6c3.jpg" width="400" height="300">
+
+
+Body/Buttons/Backplate:
+
+<img src="https://user-images.githubusercontent.com/71471706/150214670-0065d91f-566e-4f06-aacf-72239739af9c.jpg" width="400" height="300">
 
 
 
