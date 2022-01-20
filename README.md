@@ -22,6 +22,7 @@ I also wanted satallite nodes capable of sending temperature/humidity data.
 3. Generic Breadboard Buttons
 4. Hatchbox White 1.75mm PLA - https://www.amazon.com/gp/product/B00J0GMMP6/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1
 5. Generic Microservo - (I used a really old radioshack one I found in my drawer - I have the same one from many AIBs)
+
 I used an ESP32 as the hub microcontroller for its bluetooth capabilities which I might use later to create a bluetooth app (see future iterations). The faster processor and greater I/O are just bonuses.
 
 ### Probe
@@ -58,10 +59,10 @@ Assembly from here on is more intuitive and you can probably figure out what wor
 PinOut for ESP32 (hub)
 | Connection | ESP-32s GPIO Pin |
 | ---------- | ---------------- |
-| Servo PWM | Pin 13 |
-| Cold Button | Pin 34 |
-| Warm Button | Pin 35 |
-| Wake Button | Pin 32 |
+| Servo PWM | 13 |
+| Cold Button | 34 |
+| Warm Button | 35 |
+| Wake Button | 32 |
 | OLED MOSI | 23 |
 | OLED CLK | 18 |
 | OLED DC | 19 |
